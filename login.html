@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <script src="login.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="content">
+        
+        <h1>Login</h1>
+        <h3>Welcome back! Please enter your details.<br>(Fill the registration form if you haven't....)<a href="life05.html"> form</a></h3>
+
+        <form name="myform" action="login.php" method="post">
+            <div class="UserName">
+                <label for="username">Email*</label> <br>
+                <input type="text" name="username" id="username" placeholder="(Enter your Email)"  required>
+            </div>
+            <br>
+            <div class="password">
+                <label for="password">Password*</label> <br>
+                <input type="text" name="password" id="password" placeholder="(Enter your first name)" required>
+            </div>
+            <br>
+            <div class="loginbtn">
+                <input type="submit" name="login" id="login" value="Login">
+            </div>
+        </form>
+
+        <br><a href="forgot.html">Forgot password</a>
+
+    </div>
+</body>
+</html>

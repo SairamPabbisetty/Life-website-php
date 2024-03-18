@@ -1,0 +1,206 @@
+
+body {
+    background-color: #FDF5DF;
+}
+
+header {
+    background-color: #ABF62D;
+    width: 100%;
+    margin: auto;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+
+header .head {
+    margin-left: 15px;
+    padding: 10px 10px 0px 10px;
+    text-shadow: 3px 3px white;
+    font-size: 17px;
+}
+
+.head {
+    width: 60%;
+    margin: auto;
+    height: 70px;
+    padding: auto;
+}
+
+.buttons {
+    width: 30%;
+    margin: auto;
+    height: 70px;
+    padding: auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.login {
+    background-color: #D6A3FB;
+    height: 20px;
+    width: 40px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+}
+
+.signup {
+    background-color: #D6A3FB;
+    height: 20px;
+    width: 50px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+}
+
+.navigation {
+    background-color: #FECD45;
+    border: 2px solid #FECD45;
+    border-radius: 25px;
+    height: 50px;
+    padding-top: 5px;
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navigation a {
+    color: blue;
+}
+
+.navigation ul li {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: large;
+}
+
+.quotes img:hover {
+    transform: scale(1.15);   
+    transition:transform.4s;
+}
+
+.para1 {
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 65%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 70px 10px 70px;
+    background-color: yellow;
+    color: blue;
+    font-weight: bold;
+    font-size: large;
+}
+
+.quotes {
+    background-color: #4B9FE1;
+    border-radius: 50px;
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+}
+
+.author img {
+    height: 175px;
+    width: 125px;
+    border-radius: 30px;
+}
+
+.quote {
+    border: 1px solid black;
+    color: yellow;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 25px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.quote {
+    box-shadow: 10px 10px gray;
+}
+
+.quote:hover {
+    transform: scale(1.02);
+    transition:transform.4s;
+}
+
+.quote-div {
+    display: flex;
+}
+
+q {
+    font-family: 'Lucida Sans';
+}
+
+.emote, .select {
+    width: 70%;
+    height: fit-content;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.heading {
+    background-color: #FECD45;
+    border-radius: 30px;
+    margin: auto;
+}
+
+.heading h2 {
+    margin: auto;
+    margin-left: 10%;
+}
+
+.options {
+    width: 60%;
+}
+
+.options ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.options ul li {
+    font-size: larger;
+}
+
+.option {
+    margin-top: 10px;
+}
+
+.option ul {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.option ul li {
+    margin-left: 10%;
+}
+
+input[type="text"] {
+    height: 100%;
+    width: 100%;
+}
+
+.select {
+    margin-top: 0px;
+    display: flex;
+    border: 2px solid black;
+    background-color: #ABF62D;
+}

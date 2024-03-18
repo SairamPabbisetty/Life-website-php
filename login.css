@@ -1,0 +1,39 @@
+
+body {
+    background-image: url("https://th.bing.com/th/id/R.0e729fc3210c416f8514ad6b8d73161b?rik=Acp05pPZQvNo5A&riu=http%3a%2f%2favante.biz%2fwp-content%2fuploads%2fLife-Wallpapers%2fLife-Wallpapers-052.jpg&ehk=1Ugg9ohPhDIJKCDlJPt%2fcphwZNpAVu66bdyWV8SItlM%3d&risl=&pid=ImgRaw&r=0");
+}
+
+.content {
+    width: 30%;
+    height: max-content;
+    margin: auto;
+    margin-top: 10%;
+    margin-left: 60%;
+    padding: 20px;
+    background-color: antiquewhite;
+    opacity: 85%;
+    border-radius: 10px;
+}
+
+.UserName input {
+    width: 200px;
+    height: 25px;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.password input {
+    width: 200px;
+    height: 25px;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.loginbtn input {
+    background-color: skyblue;
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+}

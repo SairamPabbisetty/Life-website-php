@@ -1,0 +1,119 @@
+body {
+    background-color: #FDF5DF;
+}
+
+header {
+    background-color: #ABF62D;
+    width: 100%;
+    margin: auto;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+
+header .head {
+    margin-left: 15px;
+    padding: 10px 10px 0px 10px;
+    text-shadow: 3px 3px white;
+    font-size: 17px;
+}
+
+.head, .heading {
+    width: 60%;
+    margin: auto;
+    height: 70px;
+    padding: auto;
+}
+
+.buttons {
+    width: 30%;
+    margin: auto;
+    height: 70px;
+    padding: auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.login {
+    background-color: #D6A3FB;
+    height: 20px;
+    width: 40px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+}
+
+.signup {
+    background-color: #D6A3FB;
+    height: 20px;
+    width: 50px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+}
+
+.navigation {
+    background-color: #FECD45;
+    border: 2px solid #FECD45;
+    border-radius: 25px;
+    height: 50px;
+    padding-top: 5px;
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.navigation a {
+    color: blue;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navigation ul li {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: large;
+}
+
+img {
+    width: 20%;
+    height: 200px;
+    padding: 40px;
+    margin: auto;
+    animation: tiltImage 2s linear infinite;
+}
+
+@keyframes tiltImage {
+    0% {
+        transform: skewY(5deg);
+    }
+    50% {
+        transform: skewY(-5deg);
+    }
+    100% {
+        transform: skewY(5deg);
+    }
+}
+
+.text {
+    font-size: large;
+}
+
+label {
+    font-size: large;
+}
+
+input[type="text"] {
+    width: 250px;
+}

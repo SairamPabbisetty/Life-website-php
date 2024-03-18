@@ -1,0 +1,180 @@
+body {
+    background-color: #FDF5DF;
+}
+
+header {
+    background-color: #ABF62D;
+    width: 100%;
+    margin: auto;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+
+header .head {
+    margin-left: 15px;
+    padding: 10px 10px 0px 10px;
+    text-shadow: 3px 3px white;
+    font-size: 17px;
+}
+
+.head {
+    width: 60%;
+    margin: auto;
+    height: 70px;
+    padding: auto;
+}
+
+.buttons {
+    width: 30%;
+    margin: auto;
+    height: 70px;
+    padding: auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.login {
+    background-color: #D6A3FB;
+    height: 20px;
+    width: 40px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+}
+
+.signup {
+    background-color: #D6A3FB;
+    height: 20px;
+    width: 50px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+}
+
+.navigation {
+    background-color: #FECD45;
+    border: 2px solid #FECD45;
+    border-radius: 25px;
+    height: 50px;
+    padding-top: 5px;
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.navigation a {
+    color: blue;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navigation ul li {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: large;
+}
+
+.para1 {
+    border: 1px solid black;
+    margin: 20px 190px 20px 190px;
+    background-color: yellow;
+    padding: 20px;
+    border-radius: 30px;
+    color: blue;
+    font-weight: bold;
+    font-size: large;
+}
+
+.songs {
+    border-radius: 50px;
+    margin: auto;
+    padding: 25px;
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.part1, .part2 {
+    width: 45%;
+    height: fit-content;
+    margin: auto;
+}
+
+.part1 {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.part2 {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.song1, .song3, .song5, .song7, .song9, .song11, .song13 {
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 10px;
+    padding: 10px;
+    background-color: #4B9FE1;
+    border-radius: 30px;
+}
+
+.song2, .song4, .song6, .song8, .song10, .song12, .song14 {
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 10px;
+    padding: 10px;
+    background-color: #4B9FE1;
+    border-radius: 30px;
+}
+
+.songinfo {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 10px;
+    height: 100%;
+}
+
+.s1 {
+    font-size: 25px;
+    font-weight: bold;
+    color: yellow;
+    margin: 20px;
+    text-align: center;
+    text-shadow: 3px 3px black;
+}
+
+.s2 {
+    width: 30%;
+    margin: auto;
+    height: fit-content;
+}
+
+.s2 img {
+    width: 130px;
+    height: 175px;
+    border-radius: 30px;
+}
+
+.s3 h2 a {
+    color: rgb(9, 9, 9);
+}

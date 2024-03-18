@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIFE Club</title>
+    <link rel="stylesheet" href="life05.css">
+    <script src="life05.js" type="text/javascript"></script>
+</head>
+<body>
+    
+    <header>
+        <div class="head">
+            <h3>LIFE ~ Live Intensly Fulfill Emotions</h3>
+        </div>
+        <div class="buttons">
+            <div class="signup">
+                <a href="profile.php">Profile</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="navigation">
+        <ul type="None">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="life01.html">Words</a></li>
+            <li><a href="life02.html">Songs</a></li>
+            <li><a href="life04.html">My Writings</a></li>
+            <li><a href="life05.html">LIFE Club</a></li>
+        </ul>
+    </div>
+
+    <div class="clubform">
+        <h2>LIFE CLUB REGISTRATION FORM</h2>
+
+        <form name="myform" action="formfill.php" onsubmit="return validateform()" method="post">
+            <table align="center" cellpadding = "10">
+
+                <tr>
+                    <td>FIRST NAME* <br>(Password & Penname)</td>
+                    <td><input type="text" id="First_Name" name="First_Name" maxlength="30" required/> 
+                    (max 20 characters a-z and A-Z)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>LAST NAME*</td>
+                    <td><input type="text" id="Last_Name" name="Last_Name" maxlength="30" required/>
+                    (max 20 characters a-z and A-Z)
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>DATE OF BIRTH</td>
+                    <td><input type="date" name="birthday" id="birthday"></td>
+                </tr>
+    
+                <tr>
+                    <td>EMAIL ID</td>
+                    <td><input type="text" id="Email_Id" name="Email_Id" maxlength="100" /></td>
+                </tr>
+    
+                <tr>
+                    <td>MOBILE NUMBER</td>
+                    <td>
+                        <input type="text" id="Mobile_Number" name="Mobile_Number" maxlength="10" />
+                    (10 digit number)
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>GENDER</td>
+                    <td>
+                        Male <input type="radio" name="Gender" value="Male" />
+                        Female <input type="radio" name="Gender" value="Female" />
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>ADDRESS <br /><br /><br /></td>
+                    <td><textarea name="Address" rows="4" cols="30"></textarea></td>
+                </tr>
+    
+                <tr>
+                    <td>CITY</td>
+                    <td><input type="text" name="City" maxlength="30" />
+                    (max 20 characters a-z and A-Z)
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>PIN CODE</td>
+                    <td><input type="text" name="Pin_Code" maxlength="6" />
+                    (6 digit number)
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>STATE</td>
+                    <td><input type="text" name="State" maxlength="30" />
+                    (max 20 characters a-z and A-Z)
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>COUNTRY </td>
+                    <td><input type="text" name="Country" value="India" readonly="readonly" /></td>
+                </tr>
+     
+                <tr>
+                    <td><br>Languages <br /><br /></td>
+                    <td>
+                        Telugu
+                        <input type="checkbox" name="telugu" value="Telugu" checked />
+                        English
+                        <input type="checkbox" name="english" value="English" />
+                        Hindi
+                        <input type="checkbox" name="hindi" value="Hindi" />
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" class="submit" value="Submit">&nbsp;&nbsp;
+                        <input type="reset" class="reset" value="Reset">
+                    </td>
+                </tr>
+    
+            </table>
+        </form>
+
+    </div>
+</div>
+
+</body>
+</html>

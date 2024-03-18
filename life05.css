@@ -1,0 +1,117 @@
+body {
+    background-color: #FDF5DF;
+}
+
+header {
+    background-color: #ABF62D;
+    width: 100%;
+    margin: auto;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+
+header .head {
+    margin-left: 15px;
+    padding: 10px 10px 0px 10px;
+    text-shadow: 3px 3px white;
+    font-size: 17px;
+}
+
+.head {
+    width: 60%;
+    margin: auto;
+    height: 70px;
+    padding: auto;
+}
+
+.buttons {
+    width: 30%;
+    margin: auto;
+    height: 70px;
+    padding: auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.login {
+    background-color: #D6A3FB;
+    height: 20px;
+    width: 40px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+}
+
+.signup {
+    background-color: #D6A3FB;
+    height: 20px;
+    width: 50px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+}
+
+.navigation {
+    background-color: #FECD45;
+    border: 2px solid #FECD45;
+    border-radius: 25px;
+    height: 50px;
+    padding-top: 5px;
+    margin: 20px 190px 20px 190px;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navigation ul li {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: large;
+}
+
+.navigation a {
+    color: blue;
+}
+
+h2{
+    font-family: Calibri; 
+    font-size: 25pt;         
+    font-style: normal; 
+    font-weight: bold; 
+    color:SlateBlue;
+    text-align: center; 
+    text-decoration: underline
+  }
+  
+table{
+    font-size: large; 
+    font-weight: bold;
+    background-color: skyblue;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+table.inner{
+    border: 0px
+}
+
+input, textarea {
+    background-color: lightsalmon;
+    border-radius: 20px;
+    border: 1px solid lightsalmon;
+}
+
+.submit, .reset {
+    padding: 10px;
+    border-radius: 10px;
+}
