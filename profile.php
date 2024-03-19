@@ -75,9 +75,6 @@
                 } else {
                     try {
                         include("database.php");
-
-                        $con = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
-                        $con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
                         
                         $stmt1 = $con->prepare("SELECT * FROM forms WHERE fname=? AND email=?");
                         $stmt1->execute([$first_name, $mail_id]);

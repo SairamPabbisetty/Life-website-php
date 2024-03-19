@@ -6,13 +6,11 @@ $phn = $_REQUEST["Mobile_Number"];
 $gen = $_REQUEST["Gender"];
 $cit = $_REQUEST["City"];
 
-include("database.php");
-
 try {
-    $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-    $stmt = $conn->prepare("INSERT INTO forms (fname, lname, email, phno, gend, city) VALUES (?, ?, ?, ?, ?, ?)");
+    include("database.php");
+
+    $stmt = $con->prepare("INSERT INTO forms (fname, lname, email, phno, gend, city) VALUES (?, ?, ?, ?, ?, ?)");
     $stmt->bindParam(1, $fnam);
     $stmt->bindParam(2, $lnam);
     $stmt->bindParam(3, $mail);
@@ -29,7 +27,7 @@ try {
         exit;
     }
     
-    $conn = null;
+    $con = null;
 } catch(PDOException $e) {
     echo "Error: " . $e->getMessage();
 }

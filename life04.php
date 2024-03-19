@@ -5,12 +5,14 @@
     session_start();
     $mail_id = $_SESSION["mailid"];
 
+    if($mail_id == null) {
+        header("Location: login.html");
+        exit();
+    }
+
     try {
         
         include("database.php");
-
-        $con = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
-        $con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
         $stmt = $con->prepare("INSERT INTO uploads(penname, email, thought) VALUES(?,?,?)");
         $stmt->bindParam(1, $pen);

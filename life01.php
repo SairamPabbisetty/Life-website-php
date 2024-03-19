@@ -12,9 +12,6 @@
             
             include("database.php");
 
-            $con = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
-            $con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
             $stmt = $con->prepare("SELECT quote, author FROM quotes WHERE zenre=:emo");
             $stmt->bindParam(':emo', $emo);
             $stmt->execute();

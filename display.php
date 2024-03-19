@@ -1,12 +1,9 @@
 <?php
-
+try {
+    
     include("database.php");
 
-try {
-    $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
-    $stmt = $conn->prepare("SELECT * FROM details");
+    $stmt = $con->prepare("SELECT * FROM details");
     $stmt->execute();
 
     echo "<center><table border='1px'>

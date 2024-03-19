@@ -9,7 +9,6 @@
         include("database.php");
 
         $con = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
-        $con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
         $stmt = $con->prepare("SELECT * FROM forms WHERE email=? AND fname=?");
         $stmt->bindParam(1, $mail);
